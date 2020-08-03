@@ -13,12 +13,15 @@ api = Api(app)
 # carregar arquivos
 model = load('model/tree_model.joblib')
 
+
 class TitanicSurvival(Resource):
     def get(self):
-        return {'Nome': 'Byron'}
+        return {"App": "Welcome to Titanic Survival"}
 
     def post(self):
         args = request.get_json(force=True)
+
+        # transformar valores do JSON em array
         input_values = np.asarray(list(args.values())).reshape(1, -1)
 
         print(args)
@@ -27,6 +30,7 @@ class TitanicSurvival(Resource):
         predict = model.predict(input_values)
 
         return jsonify({'Sobrevivencia': int(predict)})
+
 
 api.add_resource(TitanicSurvival, '/')
 
