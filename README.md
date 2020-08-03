@@ -1,2 +1,2 @@
 # titanic-survival-predict
-Deploy do modelo de machine learning - chance de sobrevivência ao naufrágio 
+Deploy do modelo de machine learning do Titanic- chance de sobrevivência ao naufrágio 
