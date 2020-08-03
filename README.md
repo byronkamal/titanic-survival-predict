@@ -6,6 +6,6 @@
 ### Some information
 The API was deployed on Heroku: titanic-survival-predict.herokuapp.com
 
-To use the endpoint just install Insomnia on your pc and click on the insomnia button above.
+To use the endpoint just install [Insomnia](https://insomnia.rest/download/) on your pc and click on the insomnia button above.
 
-> Jupyter notebook where the Data Science steps were made can be seen [here](https://colab.research.google.com/drive/1muOGbvkhgrTlv-_qId6V_kfyZG--qVUf?usp=sharing)
+> Jupyter notebook where the Data Science steps were made can be seen [here](https://github.com/byronkamal/data_science/blob/master/Titanic/titanic.ipynb).
